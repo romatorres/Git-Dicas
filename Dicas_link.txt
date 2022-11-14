@@ -1,0 +1,8 @@
+Tela de login de duas colunas
+https://www.youtube.com/watch?v=69-WfrVBli8&t=2020s
+
+Sobre a posição absoluta responsiva
+https://www.youtube.com/watch?v=lUaw-AA9HnA
+
+Site responsivo - Bootstrap
+https://www.youtube.com/watch?v=ItwUZ4fK6hQ

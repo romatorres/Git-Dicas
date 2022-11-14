@@ -1,0 +1,32 @@
+Links
+npmjs.com
+Pacotes para Node
+
+Nodemon - reinicia o servidor Node de forma automática.
+
+Criar um servidor - Express.js
+npm install express
+
+Como criar um arquivo no terminal
+>index.js
+
+Plug-in
+Live Server - abre o html em tempo real
+
+————————————————-
+Passo a passo
+npm init - cria o pacote jason
+
+npm install
+
+npm install bootstrap
+
+npm install gulp
+Criar um arquivo gulpfile.js
+
+npm install sass gulp-sass
+
+npm install node-sass
+
+Para rodar o gulp:
+npm rum dev - “dev” nome da função

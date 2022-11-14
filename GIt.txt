@@ -1,0 +1,99 @@
+Personal access tokens (classic)
+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
+
+Instalação:
+git config --global user.name "Romario"
+git config -- global user.email "romatorres12@gmail.com"
+
+------------------------------------------------------------------------------
+
+/* CRIAR UM REPOSITORIO LOCAL *\
+git init
+git add .
+git commit -m "first commit"
+
+/* IMPORTAR UM PROJETO LOCAL PARA O GITHUB *\
+git init 
+git add README.md 
+git commit -m "first commit" 
+git remote add origin https://github.com/romatorres/segundo_projeto.git
+git push - sua origem principal
+
+/* ATUALIZAR O REPOSITORIO REMOTO COM OS ARQUIVOS LOCAL *\
+git add .  - ou -  git add ...nome do arquivo
+git commit -m "descrição da alteração"
+git push 
+
+/* ATUALIZAR O REPOSITORIO LOCAL COM OS ARQUIVOS REMOTO *\
+git pull
+
+/* CLONAR UM REPOSITORIO REMOTO *\
+git clone https://github.com/romatorres/teste.git
+
+/* VOLTAR UMA VERSÃO ANTERIOR *\
+git log --oneline -> para verificar os commits
+git checkout +o codigo do commit -> altera para uma verão antiga do projeto
+git checkout master -> retorna para a ultima versão do projeto
+
+/* SALVAR ALTERAÇÕES *\
+git diff -> mostra todas as alterações feitas no projeto
+git status -> mostra as possiveis acões
+git add +nome do arquivo -> adiciona as alterações no arquivo
+git commit -m -> salva uma nova versão e comentarios
+
+/* DESCARTAR UMA ALTERAÇÃO ANTES DE ADD *\
+git diff -> mostra todas as alterações feitas no projeto
+git status -> mostra as possiveis acões
+git restore +nome do arquivo -> descarta as alterações
+
+/* DESCARTAR UMA ALTERAÇÃO DEPOIS DE ADD *\
+git diff -> mostra todas as alterações feitas no projeto
+git status -> mostra as possiveis acões
+git restore +o nome do arquivo -> apaga as alterações feitas
+
+/* REMOVER UM COMMIT *\
+git log --oneline -> para visualizar os commits
+git reset --hard +numero do commit -> apaga o commit selecionado
+
+/* CRIAR UMA NOVA RAMIFICAÇÃO *\
+git branch -> identifica as Ramificações do projeto
+git checkout -b +nome da ramificação -> cria uma nova ramificação
+
+/* RETORNAR A RAMIFICAÇÃO ANTERIOR *\
+git checkout +nome da rmificação -> seleciona o ramo que desejar
+
+/* FUNDIR AS RAMIFICAÇÔES *\
+git marge +nome do ramo -> é preciso estar no ramo Master para a fusão
+
+
+Comandos:
+code -> abre o visual code
+code . -> abre o visual code na pasta de trabalho
+clear - limpa tela
+git config user.name -> retorna o nome cadastrado
+git config user.email -> retorna o e-mail cadastrado
+git config --global core.editor -> configura um editor de codigos padrão
+git config core.editor -> retorna o editor padrão
+git init -> inicia um repositorio git local, pode ser vista como arquivo oculto
+git commit -m "criado os arquivos...listar os arquivos" -> cria um comentario no repositorio local
+git commit -am "comentario" -> cria e atualiza os arquivos editados
+git log -> lista os comentarios e alterações feitas no projeto
+git log --oneline -> mosta os comentarios em uma linha resumida
+git log --graph -> mostra o desenho do Grafo de commits
+git add. -> adiciona todos os arquivos de uma vez
+git add index.html -> envia os arquivos individualmente
+git branch -> identifica o ramo do projeto
+git log --graph --all -> visualiza grafo de commits e os ramos, se oterminal travar usar "Q"
+git remote -> verifica se exite um repositorio remoto
+pwd -> mostra no terminal Bash a nossa localização da pasta
+ls -> mostra os arquivos da pasta
+ls -a -> visualiza a pasta oculta do git
+cd -> seleciona uma pasta
+cd .. -> volta uma pasta
+mkdir -> cria nova pasta
+touch -> cria arquivos
+
+
+
+
+ 
